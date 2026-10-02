@@ -1,0 +1,52 @@
+name: project_manager
+description: "Offline project manager for personal developer."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^2.0.0
+  sqflite: ^2.4.2
+  path: ^1.9.0
+  provider: ^6.1.2
+  shared_preferences: ^2.5.3
+  uuid: ^4.5.1
+  file_picker: ^13.1.0
+  share_plus: ^13.3.0
+  flutter_animate: ^4.5.2
+  intl: ^0.20.2
+  path_provider: ^2.1.5
+  url_launcher: ^6.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icons/logo.png"
+  min_sdk_android: 21 # opsional
+
+  # Konfigurasi Adaptive Icon Android (Disarankan untuk Android 8.0+)
+  adaptive_icon_background: "#FFFFFF" # bisa berupa warna hex atau path gambar: "assets/icon/bg.png"
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: Consolas
+      fonts:
+        - asset: assets/fonts/Consola.ttf
+        - asset: assets/fonts/ConsolasBold.ttf
+          weight: 700
+        - asset: assets/fonts/ConsolasItalic.ttf
+          style: italic
