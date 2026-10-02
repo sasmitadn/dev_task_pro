@@ -126,9 +126,9 @@ flutter build apk --release
 | :---: | :---: | :---: |
 | ![Splash](./docs/screenshot-splash.png) | ![Home](./docs/screenshot-home.png) | ![Detail](./docs/screenshot-detail.png) |
 
-| Timesheet | Note | Folder | Task |
-| :---: | :---: | :---: | :---: |
-| ![Timesheet](./docs/screenshot-timesheet.png) | ![Note](./docs/screenshot-note.png) | ![Folder](./docs/screenshot-folder.png) | ![Task](./docs/screenshot-task.png) |
+|                Timeline Start                 | Note | Folder | Task |
+|:---------------------------------------------:| :---: | :---: | :---: |
+| ![Timesheet](./docs/screenshot-timestart.png) | ![Note](./docs/screenshot-note.png) | ![Folder](docs/screenshot-timesheet.png) | ![Task](./docs/screenshot-task.png) |
 
 ---
 
